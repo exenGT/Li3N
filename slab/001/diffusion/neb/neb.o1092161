@@ -1,0 +1,5 @@
+Defaulting to user installation because normal site-packages is not writeable
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+-------------------------------------------------------

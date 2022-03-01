@@ -1,0 +1,560 @@
+  WARNING: The script flask is installed in '/e/07/jngwng01/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script tqdm is installed in '/e/07/jngwng01/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+WARNING: You are using pip version 20.2.3; however, version 21.2.4 is available.
+You should consider upgrading via the '/uls/7/python-3.8.5/bin/python3 -m pip install --upgrade pip' command.
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=00 L00: Traceback (most recent call last):
+rank=00 L01:   File "./job.py", line 21, in <module>
+rank=00 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=00 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=00 L04:     y = _reconstruct(x, memo, *rv)
+rank=00 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=00 L06:     state = deepcopy(state, memo)
+rank=00 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=00 L08:     y = copier(x, memo)
+rank=00 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=00 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=00 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=00 L12:     rv = reductor(4)
+rank=00 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 0): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=01 L00: Traceback (most recent call last):
+rank=01 L01:   File "./job.py", line 21, in <module>
+rank=01 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=01 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=01 L04:     y = _reconstruct(x, memo, *rv)
+rank=01 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=01 L06:     state = deepcopy(state, memo)
+rank=01 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=01 L08:     y = copier(x, memo)
+rank=01 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=01 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=01 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=01 L12:     rv = reductor(4)
+rank=01 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 1): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=04 L00: Traceback (most recent call last):
+rank=04 L01:   File "./job.py", line 21, in <module>
+rank=04 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=04 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=04 L04:     y = _reconstruct(x, memo, *rv)
+rank=04 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=04 L06:     state = deepcopy(state, memo)
+rank=04 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=04 L08:     y = copier(x, memo)
+rank=04 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=04 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=04 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=04 L12:     rv = reductor(4)
+rank=04 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 4): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=27 L00: Traceback (most recent call last):
+rank=27 L01:   File "./job.py", line 21, in <module>
+rank=27 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=27 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=27 L04:     y = _reconstruct(x, memo, *rv)
+rank=27 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=27 L06:     state = deepcopy(state, memo)
+rank=27 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=27 L08:     y = copier(x, memo)
+rank=27 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=27 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=27 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=27 L12:     rv = reductor(4)
+rank=27 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 27): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=18 L00: Traceback (most recent call last):
+rank=18 L01:   File "./job.py", line 21, in <module>
+rank=18 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=18 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=18 L04:     y = _reconstruct(x, memo, *rv)
+rank=18 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=18 L06:     state = deepcopy(state, memo)
+rank=18 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=18 L08:     y = copier(x, memo)
+rank=18 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=18 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=18 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=18 L12:     rv = reductor(4)
+rank=18 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 18): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=02 L00: Traceback (most recent call last):
+rank=02 L01:   File "./job.py", line 21, in <module>
+rank=02 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=02 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=02 L04:     y = _reconstruct(x, memo, *rv)
+rank=02 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=02 L06:     state = deepcopy(state, memo)
+rank=02 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=02 L08:     y = copier(x, memo)
+rank=02 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=02 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=02 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=02 L12:     rv = reductor(4)
+rank=02 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 2): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=24 L00: Traceback (most recent call last):
+rank=24 L01:   File "./job.py", line 21, in <module>
+rank=24 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=24 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=24 L04:     y = _reconstruct(x, memo, *rv)
+rank=24 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=24 L06:     state = deepcopy(state, memo)
+rank=24 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=24 L08:     y = copier(x, memo)
+rank=24 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=24 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=24 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=24 L12:     rv = reductor(4)
+rank=24 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 24): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=30 L00: Traceback (most recent call last):
+rank=30 L01:   File "./job.py", line 21, in <module>
+rank=30 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=30 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=30 L04:     y = _reconstruct(x, memo, *rv)
+rank=30 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=30 L06:     state = deepcopy(state, memo)
+rank=30 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=30 L08:     y = copier(x, memo)
+rank=30 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=30 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=30 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=30 L12:     rv = reductor(4)
+rank=30 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 30): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=15 L00: Traceback (most recent call last):
+rank=15 L01:   File "./job.py", line 21, in <module>
+rank=15 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=15 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=15 L04:     y = _reconstruct(x, memo, *rv)
+rank=15 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=15 L06:     state = deepcopy(state, memo)
+rank=15 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=15 L08:     y = copier(x, memo)
+rank=15 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=15 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=15 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=15 L12:     rv = reductor(4)
+rank=15 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 15): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=05 L00: Traceback (most recent call last):
+rank=05 L01:   File "./job.py", line 21, in <module>
+rank=05 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=05 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=05 L04:     y = _reconstruct(x, memo, *rv)
+rank=05 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=05 L06:     state = deepcopy(state, memo)
+rank=05 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=05 L08:     y = copier(x, memo)
+rank=05 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=05 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=05 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=05 L12:     rv = reductor(4)
+rank=05 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 5): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=25 L00: Traceback (most recent call last):
+rank=25 L01:   File "./job.py", line 21, in <module>
+rank=25 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=25 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=25 L04:     y = _reconstruct(x, memo, *rv)
+rank=25 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=25 L06:     state = deepcopy(state, memo)
+rank=25 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=25 L08:     y = copier(x, memo)
+rank=25 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=25 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=25 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=25 L12:     rv = reductor(4)
+rank=25 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 25): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=09 L00: Traceback (most recent call last):
+rank=09 L01:   File "./job.py", line 21, in <module>
+rank=09 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=09 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=09 L04:     y = _reconstruct(x, memo, *rv)
+rank=09 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=09 L06:     state = deepcopy(state, memo)
+rank=09 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=09 L08:     y = copier(x, memo)
+rank=09 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=09 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=09 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=09 L12:     rv = reductor(4)
+rank=09 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 9): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=06 L00: Traceback (most recent call last):
+rank=06 L01:   File "./job.py", line 21, in <module>
+rank=06 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=06 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=06 L04:     y = _reconstruct(x, memo, *rv)
+rank=06 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=06 L06:     state = deepcopy(state, memo)
+rank=06 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=06 L08:     y = copier(x, memo)
+rank=06 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=06 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=06 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=06 L12:     rv = reductor(4)
+rank=06 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 6): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=13 L00: Traceback (most recent call last):
+rank=13 L01:   File "./job.py", line 21, in <module>
+rank=13 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=13 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=13 L04:     y = _reconstruct(x, memo, *rv)
+rank=13 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=13 L06:     state = deepcopy(state, memo)
+rank=13 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=13 L08:     y = copier(x, memo)
+rank=13 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=13 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=13 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=13 L12:     rv = reductor(4)
+rank=13 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 13): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=03 L00: Traceback (most recent call last):
+rank=03 L01:   File "./job.py", line 21, in <module>
+rank=03 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=03 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=03 L04:     y = _reconstruct(x, memo, *rv)
+rank=03 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=03 L06:     state = deepcopy(state, memo)
+rank=03 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=03 L08:     y = copier(x, memo)
+rank=03 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=03 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=03 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=03 L12:     rv = reductor(4)
+rank=03 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 3): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=07 L00: Traceback (most recent call last):
+rank=07 L01:   File "./job.py", line 21, in <module>
+rank=07 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=07 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=07 L04:     y = _reconstruct(x, memo, *rv)
+rank=07 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=07 L06:     state = deepcopy(state, memo)
+rank=07 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=07 L08:     y = copier(x, memo)
+rank=07 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=07 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=07 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=07 L12:     rv = reductor(4)
+rank=07 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 7): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=26 L00: Traceback (most recent call last):
+rank=26 L01:   File "./job.py", line 21, in <module>
+rank=26 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=26 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=26 L04:     y = _reconstruct(x, memo, *rv)
+rank=26 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=26 L06:     state = deepcopy(state, memo)
+rank=26 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=26 L08:     y = copier(x, memo)
+rank=26 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=26 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=26 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=26 L12:     rv = reductor(4)
+rank=26 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 26): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=23 L00: Traceback (most recent call last):
+rank=23 L01:   File "./job.py", line 21, in <module>
+rank=23 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=23 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=23 L04:     y = _reconstruct(x, memo, *rv)
+rank=23 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=23 L06:     state = deepcopy(state, memo)
+rank=23 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=23 L08:     y = copier(x, memo)
+rank=23 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=23 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=23 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=23 L12:     rv = reductor(4)
+rank=23 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 23): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=16 L00: Traceback (most recent call last):
+rank=16 L01:   File "./job.py", line 21, in <module>
+rank=16 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=16 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=16 L04:     y = _reconstruct(x, memo, *rv)
+rank=16 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=16 L06:     state = deepcopy(state, memo)
+rank=16 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=16 L08:     y = copier(x, memo)
+rank=16 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=16 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=16 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=16 L12:     rv = reductor(4)
+rank=16 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 16): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=28 L00: Traceback (most recent call last):
+rank=28 L01:   File "./job.py", line 21, in <module>
+rank=28 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=28 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=28 L04:     y = _reconstruct(x, memo, *rv)
+rank=28 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=28 L06:     state = deepcopy(state, memo)
+rank=28 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=28 L08:     y = copier(x, memo)
+rank=28 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=28 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=28 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=28 L12:     rv = reductor(4)
+rank=28 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 28): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=19 L00: Traceback (most recent call last):
+rank=19 L01:   File "./job.py", line 21, in <module>
+rank=19 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=19 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=19 L04:     y = _reconstruct(x, memo, *rv)
+rank=19 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=19 L06:     state = deepcopy(state, memo)
+rank=19 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=19 L08:     y = copier(x, memo)
+rank=19 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=19 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=19 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=19 L12:     rv = reductor(4)
+rank=19 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 19): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=31 L00: Traceback (most recent call last):
+rank=31 L01:   File "./job.py", line 21, in <module>
+rank=31 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=31 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=31 L04:     y = _reconstruct(x, memo, *rv)
+rank=31 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=31 L06:     state = deepcopy(state, memo)
+rank=31 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=31 L08:     y = copier(x, memo)
+rank=31 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=31 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=31 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=31 L12:     rv = reductor(4)
+rank=31 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 31): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=17 L00: Traceback (most recent call last):
+rank=17 L01:   File "./job.py", line 21, in <module>
+rank=17 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=17 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=17 L04:     y = _reconstruct(x, memo, *rv)
+rank=17 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=17 L06:     state = deepcopy(state, memo)
+rank=17 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=17 L08:     y = copier(x, memo)
+rank=17 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=17 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=17 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=17 L12:     rv = reductor(4)
+rank=17 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 17): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=22 L00: Traceback (most recent call last):
+rank=22 L01:   File "./job.py", line 21, in <module>
+rank=22 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=22 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=22 L04:     y = _reconstruct(x, memo, *rv)
+rank=22 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=22 L06:     state = deepcopy(state, memo)
+rank=22 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=22 L08:     y = copier(x, memo)
+rank=22 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=22 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=22 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=22 L12:     rv = reductor(4)
+rank=22 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 22): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=20 L00: Traceback (most recent call last):
+rank=20 L01:   File "./job.py", line 21, in <module>
+rank=20 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=20 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=20 L04:     y = _reconstruct(x, memo, *rv)
+rank=20 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=20 L06:     state = deepcopy(state, memo)
+rank=20 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=20 L08:     y = copier(x, memo)
+rank=20 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=20 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=20 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=20 L12:     rv = reductor(4)
+rank=20 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 20): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=11 L00: Traceback (most recent call last):
+rank=11 L01:   File "./job.py", line 21, in <module>
+rank=11 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=11 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=11 L04:     y = _reconstruct(x, memo, *rv)
+rank=11 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=11 L06:     state = deepcopy(state, memo)
+rank=11 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=11 L08:     y = copier(x, memo)
+rank=11 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=11 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=11 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=11 L12:     rv = reductor(4)
+rank=11 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 11): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=21 L00: Traceback (most recent call last):
+rank=21 L01:   File "./job.py", line 21, in <module>
+rank=21 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=21 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=21 L04:     y = _reconstruct(x, memo, *rv)
+rank=21 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=21 L06:     state = deepcopy(state, memo)
+rank=21 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=21 L08:     y = copier(x, memo)
+rank=21 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=21 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=21 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=21 L12:     rv = reductor(4)
+rank=21 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 21): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=14 L00: Traceback (most recent call last):
+rank=14 L01:   File "./job.py", line 21, in <module>
+rank=14 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=14 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=14 L04:     y = _reconstruct(x, memo, *rv)
+rank=14 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=14 L06:     state = deepcopy(state, memo)
+rank=14 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=14 L08:     y = copier(x, memo)
+rank=14 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=14 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=14 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=14 L12:     rv = reductor(4)
+rank=14 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 14): <class 'TypeError'> occurred.  Calling MPI_Abort!
+rank=08 L00: Traceback (most recent call last):
+rank=08 L01:   File "./job.py", line 21, in <module>
+rank=08 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=08 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=08 L04:     y = _reconstruct(x, memo, *rv)
+rank=08 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=08 L06:     state = deepcopy(state, memo)
+rank=08 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=08 L08:     y = copier(x, memo)
+rank=08 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=08 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=08 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=08 L12:     rv = reductor(4)
+rank=08 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 8): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=29 L00: Traceback (most recent call last):
+rank=29 L01:   File "./job.py", line 21, in <module>
+rank=29 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=29 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=29 L04:     y = _reconstruct(x, memo, *rv)
+rank=29 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=29 L06:     state = deepcopy(state, memo)
+rank=29 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=29 L08:     y = copier(x, memo)
+rank=29 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=29 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=29 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=29 L12:     rv = reductor(4)
+rank=29 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 29): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=12 L00: Traceback (most recent call last):
+rank=12 L01:   File "./job.py", line 21, in <module>
+rank=12 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=12 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=12 L04:     y = _reconstruct(x, memo, *rv)
+rank=12 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=12 L06:     state = deepcopy(state, memo)
+rank=12 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=12 L08:     y = copier(x, memo)
+rank=12 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=12 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=12 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=12 L12:     rv = reductor(4)
+rank=12 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 12): <class 'TypeError'> occurred.  Calling MPI_Abort!
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+rank=10 L00: Traceback (most recent call last):
+rank=10 L01:   File "./job.py", line 21, in <module>
+rank=10 L02:     ase_calc=copy.deepcopy(calc), # Calculator, it must be the same as the one used for the optimizations.
+rank=10 L03:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 172, in deepcopy
+rank=10 L04:     y = _reconstruct(x, memo, *rv)
+rank=10 L05:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 270, in _reconstruct
+rank=10 L06:     state = deepcopy(state, memo)
+rank=10 L07:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 146, in deepcopy
+rank=10 L08:     y = copier(x, memo)
+rank=10 L09:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+rank=10 L10:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+rank=10 L11:   File "/uls/7/python-3.8.5/lib/python3.8/copy.py", line 161, in deepcopy
+rank=10 L12:     rv = reductor(4)
+rank=10 L13: TypeError: cannot pickle 'MPI' object
+GPAW CLEANUP (node 10): <class 'TypeError'> occurred.  Calling MPI_Abort!
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 42.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[n716020:01178] 16 more processes have sent help message help-mpi-api.txt / mpi-abort
+[n716020:01178] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

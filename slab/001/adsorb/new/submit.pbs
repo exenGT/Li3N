@@ -1,0 +1,9 @@
+#PBS -N Li_adsorb
+#PBS -l nodes=4:cobalt:ppn=16
+
+cd $PBS_O_WORKDIR
+
+module load gpaw/20.1.0
+
+mpiexec python3 ./job.py
+

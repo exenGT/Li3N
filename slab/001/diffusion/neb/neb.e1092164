@@ -1,0 +1,148 @@
+WARNING: You are using pip version 20.2.3; however, version 21.2.4 is available.
+You should consider upgrading via the '/uls/7/python-3.8.5/bin/python3 -m pip install --upgrade pip' command.
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/atoms.py:971: VisibleDeprecationWarning: Use get_global_number_of_atoms() instead
+  warnings.warn('Use get_global_number_of_atoms() instead',
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/scipy-1.5.2-py3.8-linux-x86_64.egg/scipy/optimize/_numdiff.py:519: RuntimeWarning: invalid value encountered in true_divide
+  J_transposed[i] = df / dx
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/utils/__init__.py:530: FutureWarning: NEBTools.get_fit() is deprecated.  Please use ase.utils.forcecurve.fit_images(images).
+  warnings.warn(warning)
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/atoms.py:971: VisibleDeprecationWarning: Use get_global_number_of_atoms() instead
+  warnings.warn('Use get_global_number_of_atoms() instead',
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/scipy-1.5.2-py3.8-linux-x86_64.egg/scipy/optimize/_numdiff.py:519: RuntimeWarning: invalid value encountered in true_divide
+  J_transposed[i] = df / dx
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/utils/__init__.py:530: FutureWarning: NEBTools.get_fit() is deprecated.  Please use ase.utils.forcecurve.fit_images(images).
+  warnings.warn(warning)
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/atoms.py:971: VisibleDeprecationWarning: Use get_global_number_of_atoms() instead
+  warnings.warn('Use get_global_number_of_atoms() instead',
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/scipy-1.5.2-py3.8-linux-x86_64.egg/scipy/optimize/_numdiff.py:519: RuntimeWarning: invalid value encountered in true_divide
+  J_transposed[i] = df / dx
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/utils/__init__.py:530: FutureWarning: NEBTools.get_fit() is deprecated.  Please use ase.utils.forcecurve.fit_images(images).
+  warnings.warn(warning)
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/parallel.py:339: FutureWarning: ase.parallel.rank has been deprecated.  Please use ase.parallel.world.rank instead.
+  warnings.warn('ase.parallel.{name} has been deprecated.  '
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/atoms.py:971: VisibleDeprecationWarning: Use get_global_number_of_atoms() instead
+  warnings.warn('Use get_global_number_of_atoms() instead',
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/scipy-1.5.2-py3.8-linux-x86_64.egg/scipy/optimize/_numdiff.py:519: RuntimeWarning: invalid value encountered in true_divide
+  J_transposed[i] = df / dx
+/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/utils/__init__.py:530: FutureWarning: NEBTools.get_fit() is deprecated.  Please use ase.utils.forcecurve.fit_images(images).
+  warnings.warn(warning)
+rank=01 L00: Traceback (most recent call last):
+rank=01 L01:   File "./job.py", line 26, in <module>
+rank=01 L02:     neb_catlearn.run(fmax=0.05, trajectory='ML-NEB.traj')
+rank=01 L03:   File "/e/07/jngwng01/.local/lib/python3.8/site-packages/catlearn/optimize/mlneb.py", line 583, in run
+rank=01 L04:     store_trajectory_neb(self)
+rank=01 L05:   File "/e/07/jngwng01/.local/lib/python3.8/site-packages/catlearn/optimize/io.py", line 193, in store_trajectory_neb
+rank=01 L06:     TrajectoryWriter(atoms=i,
+rank=01 L07:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 92, in __init__
+rank=01 L08:     self._open(filename, mode)
+rank=01 L09:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 110, in _open
+rank=01 L10:     with Trajectory(filename) as traj:
+rank=01 L11:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 48, in Trajectory
+rank=01 L12:     return TrajectoryReader(filename)
+rank=01 L13:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 223, in __init__
+rank=01 L14:     self._open(filename)
+rank=01 L15:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 233, in _open
+rank=01 L16:     self.backend = ulm.open(filename, 'r')
+rank=01 L17:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 155, in open
+rank=01 L18:     return Reader(filename, index or 0)
+rank=01 L19:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 481, in __init__
+rank=01 L20:     data = self._read_data(index)
+rank=01 L21:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 573, in _read_data
+rank=01 L22:     data = decode(self._fd.read(size).decode(), False)
+rank=01 L23: ValueError: read length must be non-negative or -1
+GPAW CLEANUP (node 1): <class 'ValueError'> occurred.  Calling MPI_Abort!
+rank=11 L00: Traceback (most recent call last):
+rank=11 L01:   File "./job.py", line 26, in <module>
+rank=11 L02:     neb_catlearn.run(fmax=0.05, trajectory='ML-NEB.traj')
+rank=11 L03:   File "/e/07/jngwng01/.local/lib/python3.8/site-packages/catlearn/optimize/mlneb.py", line 583, in run
+rank=11 L04:     store_trajectory_neb(self)
+rank=11 L05:   File "/e/07/jngwng01/.local/lib/python3.8/site-packages/catlearn/optimize/io.py", line 193, in store_trajectory_neb
+rank=11 L06:     TrajectoryWriter(atoms=i,
+rank=11 L07:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 92, in __init__
+rank=11 L08:     self._open(filename, mode)
+rank=11 L09:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 110, in _open
+rank=11 L10:     with Trajectory(filename) as traj:
+rank=11 L11:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 48, in Trajectory
+rank=11 L12:     return TrajectoryReader(filename)
+rank=11 L13:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 223, in __init__
+rank=11 L14:     self._open(filename)
+rank=11 L15:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 233, in _open
+rank=11 L16:     self.backend = ulm.open(filename, 'r')
+rank=11 L17:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 155, in open
+rank=11 L18:     return Reader(filename, index or 0)
+rank=11 L19:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 481, in __init__
+rank=11 L20:     data = self._read_data(index)
+rank=11 L21:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 572, in _read_data
+rank=11 L22:     size = int(readints(self._fd, 1)[0])
+rank=11 L23:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 186, in readints
+rank=11 L24:     a = np.frombuffer(fd.read(int(n * 8)), dtype=np.int64, count=n)
+rank=11 L25: ValueError: buffer is smaller than requested size
+GPAW CLEANUP (node 11): <class 'ValueError'> occurred.  Calling MPI_Abort!
+rank=00 L00: Traceback (most recent call last):
+rank=00 L01:   File "./job.py", line 26, in <module>
+rank=00 L02:     neb_catlearn.run(fmax=0.05, trajectory='ML-NEB.traj')
+rank=00 L03:   File "/e/07/jngwng01/.local/lib/python3.8/site-packages/catlearn/optimize/mlneb.py", line 583, in run
+rank=00 L04:     store_trajectory_neb(self)
+rank=00 L05:   File "/e/07/jngwng01/.local/lib/python3.8/site-packages/catlearn/optimize/io.py", line 193, in store_trajectory_neb
+rank=00 L06:     TrajectoryWriter(atoms=i,
+rank=00 L07:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 92, in __init__
+rank=00 L08:     self._open(filename, mode)
+rank=00 L09:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 110, in _open
+rank=00 L10:     with Trajectory(filename) as traj:
+rank=00 L11:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 48, in Trajectory
+rank=00 L12:     return TrajectoryReader(filename)
+rank=00 L13:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 223, in __init__
+rank=00 L14:     self._open(filename)
+rank=00 L15:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 233, in _open
+rank=00 L16:     self.backend = ulm.open(filename, 'r')
+rank=00 L17:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 155, in open
+rank=00 L18:     return Reader(filename, index or 0)
+rank=00 L19:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 481, in __init__
+rank=00 L20:     data = self._read_data(index)
+rank=00 L21:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 573, in _read_data
+rank=00 L22:     data = decode(self._fd.read(size).decode(), False)
+rank=00 L23: ValueError: read length must be non-negative or -1
+GPAW CLEANUP (node 0): <class 'ValueError'> occurred.  Calling MPI_Abort!
+rank=06 L00: Traceback (most recent call last):
+rank=06 L01:   File "./job.py", line 26, in <module>
+rank=06 L02:     neb_catlearn.run(fmax=0.05, trajectory='ML-NEB.traj')
+rank=06 L03:   File "/e/07/jngwng01/.local/lib/python3.8/site-packages/catlearn/optimize/mlneb.py", line 583, in run
+rank=06 L04:     store_trajectory_neb(self)
+rank=06 L05:   File "/e/07/jngwng01/.local/lib/python3.8/site-packages/catlearn/optimize/io.py", line 193, in store_trajectory_neb
+rank=06 L06:     TrajectoryWriter(atoms=i,
+rank=06 L07:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 92, in __init__
+rank=06 L08:     self._open(filename, mode)
+rank=06 L09:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 110, in _open
+rank=06 L10:     with Trajectory(filename) as traj:
+rank=06 L11:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 48, in Trajectory
+rank=06 L12:     return TrajectoryReader(filename)
+rank=06 L13:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 223, in __init__
+rank=06 L14:     self._open(filename)
+rank=06 L15:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/trajectory.py", line 233, in _open
+rank=06 L16:     self.backend = ulm.open(filename, 'r')
+rank=06 L17:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 155, in open
+rank=06 L18:     return Reader(filename, index or 0)
+rank=06 L19:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 481, in __init__
+rank=06 L20:     data = self._read_data(index)
+rank=06 L21:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 572, in _read_data
+rank=06 L22:     size = int(readints(self._fd, 1)[0])
+rank=06 L23:   File "/uls/7/gpaw-20.1.0/lib/python3.8/site-packages/ase-3.20.1-py3.8.egg/ase/io/ulm.py", line 186, in readints
+rank=06 L24:     a = np.frombuffer(fd.read(int(n * 8)), dtype=np.int64, count=n)
+rank=06 L25: ValueError: buffer is smaller than requested size
+GPAW CLEANUP (node 6): <class 'ValueError'> occurred.  Calling MPI_Abort!
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 42.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[n716014:01212] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[n716014:01212] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

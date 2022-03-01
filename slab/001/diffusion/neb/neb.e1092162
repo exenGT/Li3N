@@ -1,0 +1,39 @@
+ERROR: Invalid requirement: '/e/07/jngwng01/Cui_group_research/Mun_Sek_project/Li3N/slab/001/diffusion/Catlearn'
+Hint: It looks like a path. File '/e/07/jngwng01/Cui_group_research/Mun_Sek_project/Li3N/slab/001/diffusion/Catlearn' does not exist.
+WARNING: You are using pip version 20.2.3; however, version 21.2.4 is available.
+You should consider upgrading via the '/uls/7/python-3.8.5/bin/python3 -m pip install --upgrade pip' command.
+Traceback (most recent call last):
+  File "./job.py", line 1, in <module>
+    from catlearn.optimize.mlneb import MLNEB
+ModuleNotFoundError: No module named 'catlearn'
+Traceback (most recent call last):
+  File "./job.py", line 1, in <module>
+    from catlearn.optimize.mlneb import MLNEB
+ModuleNotFoundError: No module named 'catlearn'
+Traceback (most recent call last):
+  File "./job.py", line 1, in <module>
+    from catlearn.optimize.mlneb import MLNEB
+ModuleNotFoundError: No module named 'catlearn'
+Traceback (most recent call last):
+  File "./job.py", line 1, in <module>
+    from catlearn.optimize.mlneb import MLNEB
+ModuleNotFoundError: No module named 'catlearn'
+Traceback (most recent call last):
+  File "./job.py", line 1, in <module>
+    from catlearn.optimize.mlneb import MLNEB
+ModuleNotFoundError: No module named 'catlearn'
+Traceback (most recent call last):
+  File "./job.py", line 1, in <module>
+    from catlearn.optimize.mlneb import MLNEB
+ModuleNotFoundError: No module named 'catlearn'
+Traceback (most recent call last):
+  File "./job.py", line 1, in <module>
+    from catlearn.optimize.mlneb import MLNEB
+ModuleNotFoundError: No module named 'catlearn'
+--------------------------------------------------------------------------
+mpiexec detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[40340,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------

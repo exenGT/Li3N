@@ -1,0 +1,13 @@
+#PBS -N neb
+#PBS -l nodes=6:red:ppn=16
+
+cd $PBS_O_WORKDIR
+
+module load gpaw/20.1.0
+
+#python3 -m pip install --upgrade ase
+
+#python3 -m pip install /e/07/jngwng01/Cui_group_research/Mun_Sek_project/Li3N/slab/001/diffusion/CatLearn
+
+mpiexec python3 ./job_ase.py > ./job.log
+
